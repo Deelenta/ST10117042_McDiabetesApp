@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order">
+
+    <ImageView
+        android:id="@+id/mcdiabeteslogo"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/mcdiabeteslogo"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="249dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mcdiabeteslogo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/baconburger"
+                android:layout_width="368dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/baconburger" />
+
+            <ImageView
+                android:id="@+id/cheeseburger"
+                android:layout_width="368dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/cheeseburger" />
+
+            <ImageView
+                android:id="@+id/chickenburger"
+                android:layout_width="368dp"
+                android:layout_height="146dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/chickenburger" />
+
+            <ImageView
+                android:id="@+id/chilliburger"
+                android:layout_width="368dp"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/chilliburger" />
+
+            <ImageView
+                android:id="@+id/onionburger"
+                android:layout_width="368dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/onionburger" />
+
+            <ImageView
+                android:id="@+id/pepperburger"
+                android:layout_width="368dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/pepperburger" />
+
+            <ImageView
+                android:id="@+id/plainburger"
+                android:layout_width="368dp"
+                android:layout_height="134dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/plainburger" />
+
+            <ImageView
+                android:id="@+id/veggieburger"
+                android:layout_width="368dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/veggieburger" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

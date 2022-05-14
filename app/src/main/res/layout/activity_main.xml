@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mcdiabeteslogo"
+        android:layout_width="349dp"
+        android:layout_height="186dp"
+        android:layout_weight="1"
+        android:src="@drawable/mcdiabeteslogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="235dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="404dp"
+        android:hint="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="227dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="354dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="317dp"
+        android:hint="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="84dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="84dp"
+        android:text="Join"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
